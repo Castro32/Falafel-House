@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="shadow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#000" stop-opacity="0.3"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1E7A2A"/><stop offset="0.45" stop-color="#3DB23E"/><stop offset="1" stop-color="#1B6E26"/>
+    </linearGradient>
+    <radialGradient id="ball" cx="0.38" cy="0.32" r="0.75">
+      <stop offset="0" stop-color="#D9913F"/><stop offset="0.45" stop-color="#A9601F"/><stop offset="1" stop-color="#5E2E0D"/>
+    </radialGradient>
+    <clipPath id="top"><ellipse cx="200" cy="190" rx="148" ry="62"/></clipPath>
+  </defs>
+  <ellipse cx="200" cy="336" rx="140" ry="18" fill="url(#shadow)"/>
+  <path d="M40,190 Q52,300 200,318 Q348,300 360,190 Z" fill="url(#bowl)"/>
+  <path d="M120,300 Q200,318 280,300" stroke="#0F4A16" stroke-width="3" fill="none" opacity="0.4"/>
+  <ellipse cx="200" cy="190" rx="160" ry="70" fill="#F7F1E3"/>
+  <ellipse cx="200" cy="190" rx="148" ry="62" fill="#EADDBF"/>
+  <g clip-path="url(#top)">
+    <!-- greens -->
+    <path d="M52,190 Q60,140 110,132 Q130,160 120,200 Q90,230 52,210 Z" fill="#5FB63F"/>
+    <path d="M70,170 Q90,150 112,160 M64,196 Q86,186 110,196" stroke="#3E8A28" stroke-width="3" fill="none"/>
+    <!-- quinoa -->
+    <path d="M120,200 Q130,150 200,132 L210,190 Q170,220 120,200 Z" fill="#F2E3B9"/>
+    <g fill="#D9C38C"><circle cx="150" cy="170" r="3"/><circle cx="165" cy="160" r="3"/><circle cx="180" cy="176" r="3"/><circle cx="140" cy="188" r="3"/><circle cx="190" cy="150" r="3"/><circle cx="170" cy="192" r="3"/><circle cx="196" cy="172" r="3"/></g>
+    <!-- red cabbage -->
+    <path d="M200,132 Q260,128 300,150 L250,192 L210,190 Z" fill="#9C2F7A"/>
+    <path d="M222,146 Q246,160 270,152 M218,170 Q240,178 262,168" stroke="#D86AB0" stroke-width="3" fill="none"/>
+    <!-- avocado -->
+    <g transform="translate(290 190) rotate(-20)">
+      <ellipse rx="42" ry="20" fill="#C7DE6A"/><ellipse rx="42" ry="20" fill="none" stroke="#3E6B1F" stroke-width="5"/>
+      <ellipse cx="0" cy="22" rx="40" ry="18" fill="#B8D35C"/><ellipse cx="0" cy="22" rx="40" ry="18" fill="none" stroke="#3E6B1F" stroke-width="5"/>
+    </g>
+    <!-- tomatoes -->
+    <circle cx="96" cy="228" r="16" fill="#E2412F"/><circle cx="92" cy="224" r="5" fill="#F79A86"/>
+    <circle cx="128" cy="236" r="14" fill="#E2412F"/><circle cx="124" cy="232" r="4" fill="#F79A86"/>
+    <!-- chickpeas -->
+    <g fill="#E8C47A" stroke="#C59A4A" stroke-width="1.5">
+      <circle cx="320" cy="232" r="9"/><circle cx="300" cy="240" r="9"/><circle cx="336" cy="214" r="9"/><circle cx="280" cy="232" r="9"/>
+    </g>
+    <!-- falafel -->
+    <circle cx="190" cy="226" r="28" fill="url(#ball)"/>
+    <circle cx="238" cy="222" r="26" fill="url(#ball)"/>
+    <circle cx="214" cy="204" r="25" fill="url(#ball)"/>
+    <g fill="#4A230A" opacity="0.5"><circle cx="186" cy="232" r="2"/><circle cx="240" cy="228" r="2"/><circle cx="220" cy="210" r="2"/><circle cx="200" cy="222" r="1.6"/></g>
+    <!-- tahini -->
+    <path d="M110,176 Q160,200 210,180 Q260,160 300,186" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.95"/>
+    <g fill="#2E2E2E"><circle cx="196" cy="198" r="1.6"/><circle cx="230" cy="200" r="1.6"/><circle cx="172" cy="214" r="1.6"/></g>
+  </g>
+  <ellipse cx="200" cy="190" rx="160" ry="70" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+</svg>

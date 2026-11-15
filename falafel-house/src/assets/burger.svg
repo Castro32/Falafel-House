@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <radialGradient id="shadow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#000" stop-opacity="0.3"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bun" cx="0.4" cy="0.25" r="0.85">
+      <stop offset="0" stop-color="#F2B861"/><stop offset="0.55" stop-color="#D88B2E"/><stop offset="1" stop-color="#9C5715"/>
+    </radialGradient>
+    <linearGradient id="crisp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0B24E"/><stop offset="0.5" stop-color="#C97A22"/><stop offset="1" stop-color="#8E4F12"/>
+    </linearGradient>
+    <linearGradient id="bottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3D29A"/><stop offset="1" stop-color="#C98734"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="200" cy="350" rx="150" ry="18" fill="url(#shadow)"/>
+  <!-- bottom bun -->
+  <path d="M68,290 Q70,340 200,342 Q330,340 332,290 Z" fill="url(#bottom)"/>
+  <!-- sauce -->
+  <path d="M70,286 Q200,300 330,286 L322,300 Q300,312 290,300 Q260,318 240,302 Q200,318 170,302 Q140,316 120,300 Q96,312 80,300 Z" fill="#F3E3C3"/>
+  <!-- crispy patty -->
+  <path d="M60,236 Q62,206 110,204 L290,204 Q338,206 340,236 Q342,286 290,290 L110,290 Q58,286 60,236 Z" fill="url(#crisp)"/>
+  <g fill="#FFD27A" opacity="0.75">
+    <path d="M90,226 l10,-6 l6,10 Z"/><path d="M140,216 l12,-4 l2,12 Z"/><path d="M200,222 l10,-8 l6,10 Z"/><path d="M260,214 l12,0 l-4,10 Z"/><path d="M300,232 l10,-6 l4,10 Z"/>
+    <path d="M120,256 l10,-4 l2,10 Z"/><path d="M230,252 l12,-6 l2,12 Z"/><path d="M180,268 l10,-4 l4,10 Z"/>
+  </g>
+  <g fill="#7A410E" opacity="0.45">
+    <circle cx="110" cy="244" r="3"/><circle cx="160" cy="236" r="3"/><circle cx="214" cy="244" r="3"/><circle cx="270" cy="250" r="3"/><circle cx="310" cy="262" r="3"/><circle cx="140" cy="274" r="3"/>
+  </g>
+  <!-- pickled onions + tomato -->
+  <path d="M72,204 Q200,190 328,204 L320,196 Q200,176 80,196 Z" fill="#E2412F"/>
+  <path d="M110,196 q14,-12 28,0 M180,190 q14,-12 28,0 M250,192 q14,-12 28,0" stroke="#C2306B" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- lettuce -->
+  <path d="M56,182 Q70,170 82,184 Q96,168 110,184 Q126,168 140,184 Q156,168 170,184 Q186,168 200,184 Q216,168 230,184 Q246,168 260,184 Q276,168 290,184 Q306,168 318,184 Q332,170 344,182 Q330,198 300,194 L100,194 Q70,198 56,182 Z" fill="#6CC24A"/>
+  <!-- tahini drip -->
+  <path d="M120,182 Q200,196 280,182 L276,190 Q268,214 260,190 Q220,200 180,192 Q170,220 160,192 Q140,192 124,190 Z" fill="#FFFFFF"/>
+  <!-- top bun -->
+  <path d="M60,178 Q58,62 200,58 Q342,62 340,178 Q200,192 60,178 Z" fill="url(#bun)"/>
+  <g fill="#FFF3D9">
+    <ellipse cx="140" cy="102" rx="6" ry="3.5" transform="rotate(-20 140 102)"/><ellipse cx="190" cy="86" rx="6" ry="3.5"/><ellipse cx="240" cy="96" rx="6" ry="3.5" transform="rotate(20 240 96)"/>
+    <ellipse cx="170" cy="124" rx="6" ry="3.5" transform="rotate(10 170 124)"/><ellipse cx="220" cy="126" rx="6" ry="3.5" transform="rotate(-10 220 126)"/><ellipse cx="270" cy="130" rx="6" ry="3.5" transform="rotate(25 270 130)"/>
+    <ellipse cx="120" cy="138" rx="6" ry="3.5" transform="rotate(-25 120 138)"/><ellipse cx="290" cy="106" rx="5" ry="3" transform="rotate(30 290 106)"/>
+  </g>
+</svg>
