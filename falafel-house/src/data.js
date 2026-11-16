@@ -1,8 +1,8 @@
 import heroImg from './assets/hero.svg'
-import wrapImg from './assets/wrap.svg'
-import bowlImg from './assets/bowl.svg'
-import juiceImg from './assets/juice.svg'
-import burgerImg from './assets/burger.svg'
+import wrapImg from './assets/p3.jpg'
+import bowlImg from './assets/p2.jpg'
+import juiceImg from './assets/p1.jpg'
+import burgerImg from './assets/P4.jpg'
 
 export const images = { heroImg, wrapImg, bowlImg, juiceImg, burgerImg }
 
